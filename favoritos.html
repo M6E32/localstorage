@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador Recetas Comida</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        #bg {
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-gradient p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient p-3" style="background-color: pink;">
         <div class="container-fluid">
-            <a class="navbar-brand fs-4" href="index.html">Buscador de Recetas</a>
+            <a class="navbar-brand fs-4" href="index.html">Buscador de Recetas - Monica Escutia Vazquez</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,10 +24,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link fs-4" href="index.html">Inicio</a>
+                        <a class="nav-link fs-4 rounded-3" id="bg" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4 active" aria-current="page"  href="favoritos.html">Mis Favoritos</a>
+                        <a class="nav-link fs-4 active rounded-3" id="bg" aria-current="page"  href="favoritos.html">Mis Favoritos</a>
                     </li>
                 </ul>
             </div>
